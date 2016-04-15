@@ -20,3 +20,7 @@ $(document).on('click', '#wordpress', function (e) {
 $(document).on('click', '#javascript', function (e) {
     $("#main").load("inc/javascript.html");
 });
+
+$(document).on('click', '#learning', function (e) {
+    $("#main").load("inc/learning.html");
+});
