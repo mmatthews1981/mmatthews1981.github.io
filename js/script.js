@@ -23,3 +23,7 @@ $(document).on('click', '#javascript', function (e) {
 $(document).on('click', '#learning', function (e) {
     $("#main").load("inc/learning.html");
 });
+
+$(document).on('click', '#pastprojects', function (e) {
+    $("#main").load("inc/pastprojects.html");
+});
