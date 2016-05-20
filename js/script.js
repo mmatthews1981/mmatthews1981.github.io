@@ -27,3 +27,7 @@ $(document).on('click', '#learning', function (e) {
 $(document).on('click', '#pastprojects', function (e) {
     $("#main").load("inc/pastprojects.html");
 });
+
+$(document).on('click', '#other', function (e) {
+    $("#main").load("inc/other.html");
+});

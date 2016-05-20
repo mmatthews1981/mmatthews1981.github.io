@@ -18,6 +18,11 @@ h3, h4, h5, h6 {
   margin:0 0 20px;
 }
 
+h1:hover,
+.view {
+  color:#069;
+}
+
 p, ul, ol, table, pre, dl {
   margin:0 0 20px;
 }
