@@ -7,7 +7,6 @@ $(window).bind("load", function() {
 $("#main").load("inc/home.html");
 });
 
-
 $(document).on('click', 'h1', function (e) {
     $("#main").load("inc/home.html");
 });
