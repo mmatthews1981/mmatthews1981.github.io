@@ -4,12 +4,12 @@ h1 {
 }
 
 #container {
-  display: inline-block;
-  background: blue;
-  margin: 0px auto;
-  padding: 25px;
-  border-radius: 25px;
-  
+display: block;
+    background: blue;
+    margin: 0px auto;
+    padding: 25px;
+    border-radius: 25px;
+    width: 364px;
 }
 
 #app {
