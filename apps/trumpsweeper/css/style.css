@@ -12,6 +12,10 @@ h1 {
   
 }
 
+#app {
+  display:inline-block;
+}
+
 #header {
   display: block;
 }
