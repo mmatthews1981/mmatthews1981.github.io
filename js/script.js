@@ -1,32 +1,75 @@
-$( document ).ready(function() {
-		$("#header").load("inc/header.html");
-		$("#footer").load("inc/footer.html");
+$('#beer').click(function() {
+	$('#myIframe').prepend('<div class="player"><iframe width="560" height="315" src="https://www.youtube.com/embed/8i5k4I1AOEI" frameborder="0" allowfullscreen></iframe></div><div><button onclick="silly()">This is very silly, close the video now.</button></div>');
 });
 
-$(window).bind("load", function() {
-$("#main").load("inc/home.html");
+function silly(){
+	$('#myIframe').empty();
+};
+
+
+
+$("#javascript").animatedModal({
+	modalTarget:'js',
+	color: '#ffffff',
+	afterClose: function() {
+		$('body').removeAttr('style');
+		$('html').removeAttr('style');
+	}
 });
 
-$(document).on('click', 'h1', function (e) {
-    $("#main").load("inc/home.html");
+$("#pastprojects").animatedModal({
+	modalTarget:'past',
+	color: '#ffffff',
+	afterClose: function() {
+		$('body').removeAttr('style');
+		$('html').removeAttr('style');
+	}
 });
 
-$(document).on('click', '#wordpress', function (e) {
-    $("#main").load("inc/wordpress.html");
+$("#wordpress").animatedModal({
+	modalTarget:'wp',
+	color: '#ffffff',
+	afterClose: function() {
+		$('body').removeAttr('style');
+		$('html').removeAttr('style');
+	}
 });
 
-$(document).on('click', '#javascript', function (e) {
-    $("#main").load("inc/javascript.html");
+$("#learning").animatedModal({
+	modalTarget:'learn',
+	color: '#ffffff',
+	afterClose: function() {
+		$('body').removeAttr('style');
+		$('html').removeAttr('style');
+	}
 });
 
-$(document).on('click', '#learning', function (e) {
-    $("#main").load("inc/learning.html");
+$("#otherstuff").animatedModal({
+	modalTarget:'other',
+	color: '#ffffff',
+	afterClose: function() {
+		$('body').removeAttr('style');
+		$('html').removeAttr('style');
+	}
 });
 
-$(document).on('click', '#pastprojects', function (e) {
-    $("#main").load("inc/pastprojects.html");
+$("#pastprojects").click(function(){
+	$("#past").effect( "highlight", {color:"#669966"}, 1000 );
 });
 
-$(document).on('click', '#other', function (e) {
-    $("#main").load("inc/other.html");
+$("#javascript").click(function(){
+	$("#js").effect( "highlight", {color:"#669966"}, 1000 );
 });
+
+$("#wordpress").click(function(){
+	$("#wp").effect( "highlight", {color:"#669966"}, 1000 );
+});
+
+$("#learning").click(function(){
+	$("#learn").effect( "highlight", {color:"#669966"}, 1000 );
+});
+
+$("#otherstuff").click(function(){
+	$("#other").effect( "highlight", {color:"#669966"}, 1000 );
+});
+
