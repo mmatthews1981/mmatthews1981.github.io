@@ -14,6 +14,7 @@ $("#javascript").animatedModal({
 	afterClose: function() {
 		$('body').removeAttr('style');
 		$('html').removeAttr('style');
+		$("#js").css('display', 'none');
 	}
 });
 
@@ -23,6 +24,7 @@ $("#pastprojects").animatedModal({
 	afterClose: function() {
 		$('body').removeAttr('style');
 		$('html').removeAttr('style');
+		$("#past").css('display', 'none');
 	}
 });
 
@@ -32,6 +34,7 @@ $("#wordpress").animatedModal({
 	afterClose: function() {
 		$('body').removeAttr('style');
 		$('html').removeAttr('style');
+		$("#wp").css('display', 'none');
 	}
 });
 
@@ -41,6 +44,7 @@ $("#learning").animatedModal({
 	afterClose: function() {
 		$('body').removeAttr('style');
 		$('html').removeAttr('style');
+		$("#learn").css('display', 'none');
 	}
 });
 
@@ -50,6 +54,7 @@ $("#otherstuff").animatedModal({
 	afterClose: function() {
 		$('body').removeAttr('style');
 		$('html').removeAttr('style');
+		$("#other").css('display', 'none');
 	}
 });
 
