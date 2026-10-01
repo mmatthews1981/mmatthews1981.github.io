@@ -13,6 +13,7 @@
 
 <!-- forked from https://codepen.io/arunashoksdl/pen/gOdveNJ -->
 <body>
+  <!-- no skip link violates 2.4.1 Bypass Blocks (A) -->
 
   <!-- Navbar starts -->
     <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
@@ -72,6 +73,7 @@
         <div class="carousel-item">
           <img src="https://images.unsplash.com/photo-1591825482080-3fefe696a117?w=500&h=500&fit=crop" alt="New York"
             class="d-block" style="width:100%">
+            <!-- The text caption over this image violates 1.4.3 Contrast (Minimum) (AA) -->
           <div class="carousel-caption">
             <h3>New York</h3>
             <p>We love the Big Apple!</p>
@@ -79,8 +81,9 @@
         </div>
       </div>
       <!-- Left and right controls/icons -->
+       <!-- left and right controls violate -->
       <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
-        <span> < </span>
+        <span>  </span>
       </button>
       <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
         <span> > </span>
