@@ -9,15 +9,15 @@
   width: 100%;
 }
 
-.nav-link {
-  color: #ffffff76;
-}
-
 .carousel-inner img {
   width: 100%;
   max-height: 100vh !important;
 }
 
+.carousel-control-prev,
+.carousel-control-next {
+  font-size: 3rem;
+}
 #gallery {
   margin: 2em auto;
 }
