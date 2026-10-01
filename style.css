@@ -1,6 +1,6 @@
 .about {
   position: relative;
-  background-color: grey;
+  background-color: var(--bs-gray-500);
   padding: 20px;
   justify-content: center;
 }
