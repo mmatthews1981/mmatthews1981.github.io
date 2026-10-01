@@ -36,7 +36,8 @@
           </ul>
           <form class="d-flex">
             <input class="form-control me-2" type="text" placeholder="Search">
-            <div class="btn btn-primary" type="button">🔎</div>
+            <!-- incorrect semantic structure, violates 1.3.1 Info and Relationships (A) and 4.1.2 Name, Role, Value (A) -->
+            <div class="btn btn-primary">Search</div>
           </form>
         </div>
       </div>
@@ -81,9 +82,9 @@
         </div>
       </div>
       <!-- Left and right controls/icons -->
-       <!-- left and right controls violate -->
+      <!-- left and right control buttons do not have an accessible name, violates 4.1.2 Name, Role, Value (A) -->
       <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
-        <span>  </span>
+        <span> < </span>
       </button>
       <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
         <span> > </span>
@@ -99,6 +100,7 @@
     <main>
       <!--About Us Starts -->
       <div class="container mt-3 about">
+        <!-- the heading is in the wrong order, violates 1.3.1 Info and Relationships (A) -->
         <h3>Responsive Columns</h3>
         <p>Resize the browser window to see the effect.</p>
         <p>The columns will automatically stack on top of each other when the screen is less than 576px wide.</p>
