@@ -6,6 +6,11 @@ body {
   }
 }
 
+a {
+  text-decoration: none;
+  color: var(--bs-blue);
+}
+
 .about {
   position: relative;
   background-color: var(--bs-gray-500);
